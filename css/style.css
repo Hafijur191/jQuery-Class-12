@@ -6,7 +6,7 @@ body {
   background: linear-gradient(to right, #1c658c, #398ab9);
 }
 .todo-app {
-  margin-top: 60px;
+  margin-top: 5px;
 }
 .add-task {
   padding: 12px;
@@ -32,4 +32,41 @@ body {
 }
 i:hover{
   cursor: pointer;
+}
+
+/* Wordpress site */
+
+.btn{
+  height: 40px;
+  width: 185px;
+  background-color: red;
+  color: white;
+  border: none;
+  transition: .5s;
+}
+.btn:hover{
+  background-color: green;
+  color: white;
+  outline: none;
+  transition: .5s;
+}
+.who{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.info{
+  margin-top: 160px;
+}
+.info h3{
+  text-align: center;
+  color: #d0da15;
+}
+.in{
+  margin-top: 20px;
+}
+.in h3{
+  text-align: center;
+  color: #e8db04b3;
 }
